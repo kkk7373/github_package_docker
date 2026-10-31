@@ -35,3 +35,4 @@ jobs:
           push: true
           context: docker/example
           tags: ${{ steps.meta.outputs.tags }}
+          lebels: ${{ steps.meta.outputs.labels }}
