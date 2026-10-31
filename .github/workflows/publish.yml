@@ -13,7 +13,7 @@ env:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    persmissions:
+    permissions:
       packages: write
       contents: read
     steps:
